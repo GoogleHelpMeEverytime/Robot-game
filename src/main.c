@@ -1,27 +1,3 @@
-/*----------------------------------------------------
-Nome:                   Robot
-Autore:                 Improta Nicola
-Matricola:              0124001479
-Finalità del programma: Simulare il movimento di un
-						robot in una stanza. Date in
-						input le coordinate della 
-						posizione iniziale del robot 
-						ad ogni passo il robot si muove
-						di una sola cella alla volta.
-						Nel 30% dei casi il robot si
-						muove a caso in una delle quattro 
-						direzioni.
-						Nel 70% dei casi il robot 
-						guardando in ognuna delle 
-						quattro direzioni si muove 
-						nella direzione con il percorso 
-						più lungo.
-						Il robot non può mai fare un 
-						passo in una direzione e il 
-						passo successivo nella direzione
-						opposta.
-----------------------------------------------------*/
-
 #include "functions.c"
 
 /*----------------------------------------------------
@@ -61,7 +37,7 @@ int main(){
 	STAMPA(CAMPO);
 	system("pause");
 	
-	//il ciclo si ripete finché il robot non esce dalla stanza.
+	//il ciclo si ripete finchÃ© il robot non esce dalla stanza.
 	while(flag2 == 0){
 		//generazione di un numero casuale
 		n = rand()%10;
@@ -73,7 +49,7 @@ int main(){
 			k++;
 		}
 		//70%: se viene generato casualmente un numero tra 3 e 9 il robot
-		//si muove nella direzione con il percorso più lungo.
+		//si muove nella direzione con il percorso piÃ¹ lungo.
 		else{
 			MOVIMENTO_AUTONOMO(CAMPO, &flag2);
 			j++;

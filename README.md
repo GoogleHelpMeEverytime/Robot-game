@@ -15,6 +15,11 @@ Il robot può muoversi solo in due modi:
 3. Nel 70% dei casi il robot si muove seguendo la modalità di movimento che prevede di guardare nelle quattro direzioni e scegliere quella con più celle libere.
 ### Idea
 Questo progetto è stato assegnato agli studenti del Corso di Laurea in Informatica dell' Università degli Studi di Napoli "Parthenope" per il corso di Programmazione 1.
+### Screenshot
+#### Inizio
+![Screen1](https://github.com/GoogleHelpMeEverytime/Robot-game/blob/master/imgs/N1_11.jpg)
+#### Fine 
+![Screen2](https://github.com/GoogleHelpMeEverytime/Robot-game/blob/master/imgs/N1_12.jpg)
 # Installazione
 ### Clone repository
 ```console
